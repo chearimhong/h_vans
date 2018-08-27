@@ -1,0 +1,30 @@
+/*main_pc_productbox.css*/
+@media screen and (min-width:768px) and (max-width:1365px){
+#productbox {
+  box-sizing:border-box; padding-top:120px;
+  width: 100%; height: auto; background-color:#8080FF;}
+
+#productbox > h2 {
+  margin: auto;
+  width: 50%; height:202px; background-color: #404080;}
+
+/*product_wrap*/
+.product_wrap {
+  margin-top:60px;
+  width: 100%; height:800px; background-color:#D0D0E0;}
+.product_wrap > ul {width: 100%; height:700px; background-color:#FFC0FF;}
+.product_wrap > ul > li {
+  float:left; margin-left:2.5%;
+  width:30%; height:700px; background-color: #FF8080;}
+
+/*pd_01*/
+.pd_01 {width: 100%; height:400px; background-color:#804040;}
+.pd_02 {width: 100%; height:400px; background-color:#804040;}
+.pd_03 {width: 100%; height:400px; background-color:#804040;}
+
+.pd_dl {
+  box-sizing:border-box; padding-top:1.4641288433vw; 
+  width: 100%; height: 21.96193265vw; background-color: #ccc;}
+.pd_dt {width: 100%; height: 14.641288433vw; background-color: #fff;}
+.pd_dd {width: 100%; height:5.124450951vw; background-color: #aaa;}
+}

@@ -1,0 +1,114 @@
+/*main_pcfull_adbox.css*/
+@media screen and (min-width:1366px){
+#adbox {width: 100%; height:auto;}
+
+/*bannerbox_01*/
+.bannerbox_01 {
+  position:relative;
+  width: 100%; height:73.2064421vw;
+  background-image:url(../../../../img/vans_main_pc/adbox/img_01.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;}
+.bannerbox_01 > p {
+  position:absolute;bottom:22%; right:5%;
+  width:40%; height:18%;
+  transform:translateX(-10rem);
+  transition:all 600ms ease; opacity:0;
+  background-image:url(../../../../img/vans_main_pc/adbox/slipon.png);
+  background-repeat:no-repeat;
+  background-position: center;}
+p.active{transform:translateX(0); opacity: 1;}}
+.button_00 {
+  position:absolute;bottom:8%; right:10%;
+  width:30%; height:12%;
+  background-image:url(../../../../img/vans_main_pc/adbox/takealook.png);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:contain;
+  animation:cr 700ms infinite alternate;}
+
+
+.button_00:hover {
+  background-image:url(../../../../img/vans_main_pc/adbox/takealook_black.png);
+  background-repeat: no-repeat;
+  background-position: center;}
+
+/*bannerbox_02*/
+.bannerbox_02 {
+  width: 100%; height:43.92386530vw;}
+/*---*/
+.banner_01 {
+  float:left; position:relative;
+  width: 50%; height: 100%;
+  transition: all 700ms ease; background-size:100%;
+  background-image:url(../../../../img/vans_main_pc/adbox/img_02.png);
+  background-repeat:no-repeat;
+  background-position: center;}
+.banner_01:hover {background-size:130%;}
+.button_01 {
+  position:absolute;bottom:10%;left:50%;margin-left:-30%;
+  width:60%; height:20%; 
+  background-image:url(../../../../img/vans_main_pc/adbox/authentic.png);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:contain;
+  }
+.button_01:hover {
+  background-image:url(../../../../img/vans_main_pc/adbox/authentic_black.png);
+  background-repeat: no-repeat;
+  background-position: center;}
+/*---*/
+.banner_02 {
+  float:right; position:relative;
+  width: 50%; height: 100%;
+  transition: all 700ms ease; background-size:100%;
+  background-image:url(../../../../img/vans_main_pc/adbox/img_03.png);
+  background-repeat: no-repeat;
+  background-position: center;}
+.banner_02:hover {background-size:130%;}
+.button_02{
+  position:absolute;bottom:10%;left:50%;margin-left:-30%;
+  width:60%; height:20%;
+  background-image:url(../../../../img/vans_main_pc/adbox/marvel.png);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:contain;}
+.button_02:hover {
+  background-image:url(../../../../img/vans_main_pc/adbox/marvel_black.png);
+  background-repeat:no-repeat;
+  background-position: center;}
+/*---*/
+a{width: 100%; height: 100%; display:block;}
+
+/*bannerbox_03*/
+.bannerbox_03 {
+  width: 100%; height:14.9016105vw;
+  transform:translateX(-100rem);
+  transition:all 1000ms ease; opacity:0;
+  background-image:url(../../../../img/vans_main_pc/adbox/snsbanner1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;}
+.bannerbox_03.active{transform:translateX(0); opacity: 1;}
+
+
+/*top_btn*/
+.top_btn {
+  position:fixed; top:85%;left:93%; z-index:1000;
+  float:left; width:2.5vw; height:2.41666vw;
+  background-image:url(../../../../img/vans_main_pc/vans_btn.jpg);
+  background-repeat:no-repeat;
+  background-position:center; }
+.top_btn:hover {
+  background-image:url(../../../../img/vans_main_pc/vans_btn_on.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.top_btn > a {display:block; width: 100%; height: 100%;transition:all 500ms;}
+@keyframes cr {
+    0%{transform:translateY(-1.5rem);} 
+    
+    100%{transform:translateY(1.5rem);}
+
+}

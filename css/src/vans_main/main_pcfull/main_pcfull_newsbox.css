@@ -1,0 +1,130 @@
+/*main_pcfull_newsbox.css*/
+@media screen and (min-width:1366px) {
+#newsbox {
+  position:relative;
+  box-sizing:border-box; padding-top: 240px; padding-bottom:170px;
+  width: 100%; height: auto;}
+
+#newsbox > h2 {
+  z-index:1000;
+  position:absolute; top:5%; right:30%;
+  width:35%; height:250px;
+  background-image:url(../../../../img/vans_main_pc/newsbox/news.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;}
+
+/*news_wrap*/
+.news_wrap {width: 100%;height:1700px; background-color: #f5f4f9; }
+
+
+/*news_01*/
+.news_01 {
+  position:absolute; top:13%; left:3%;
+  width: 40%; height:700px;
+  transform:translate(-10rem,-10rem);
+  transition:all 800ms ease; opacity:0;
+  background-image:url(../../../../img/vans_main_pc/newsbox/img_01.png);
+  background-repeat: no-repeat;
+  background-position: center;}
+.news_01.active{transform:translateX(0); opacity: 1;}}
+.box_01{
+  position:absolute; top:40%; left:70%;
+  width:300px; height:350px;}
+.day_01{
+  position:absolute; top:6%;
+  width: 100%; height:90px;
+  background-image:url(../../../../img/vans_main_pc/newsbox/day_01.png);
+  background-repeat:no-repeat;
+  background-position:center;}
+.text_01{
+  margin-top:100px;
+  width: 100%; height:80%; background-color: #c48f2f;
+  background-image:url(../../../../img/vans_main_pc/newsbox/text_01.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:70%;}
+
+/*news_02*/
+.news_02 {
+  position:absolute; top:20%; right: 0;
+  width:45%; height: 730px;
+  transform:translate(10rem,-10rem);
+  transition:all 800ms ease; opacity:0;
+  background-image:url(../../../../img/vans_main_pc/newsbox/img_02.png);
+  background-repeat:no-repeat;
+  background-position: center;}
+.news_02.active{transform:translateX(0); opacity: 1;}
+.box_02{
+  position:absolute; top:43%; right:45%;
+  width:300px; height:350px;}
+.day_02{
+  position:absolute; top:6%;
+  width: 100%; height:90px;
+  background-image:url(../../../../img/vans_main_pc/newsbox/day_02.png);
+  background-repeat:no-repeat;
+  background-position:center;}
+.text_02{
+  margin-top:100px;
+  width: 100%; height:80%; background-color:#ea7259;
+  background-image:url(../../../../img/vans_main_pc/newsbox/text_02.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:70%;}
+
+/*news_03*/
+.news_03 {
+  position:absolute; bottom:19%; 
+  width: 50%; height:700px;
+  transform:translate(-10rem,10rem);
+  transition:all 800ms ease; opacity:0;
+  background-image:url(../../../../img/vans_main_pc/newsbox/img_03.png);
+  background-repeat:no-repeat;
+  background-position: center;}
+.news_03.active{transform:translateX(0); opacity: 1;}
+.box_03{
+  position:absolute; bottom:-20%; left:5%;
+  width:300px; height:350px;}
+.day_03{
+  position:absolute; top:6%;
+  width: 100%; height:90px;
+  background-image:url(../../../../img/vans_main_pc/newsbox/day_03.png);
+  background-repeat:no-repeat;
+  background-position:center;}
+.text_03{
+  margin-top:100px;
+  width: 100%; height:80%; background-color: #161415;
+  background-image:url(../../../../img/vans_main_pc/newsbox/text_03.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:70%;}
+
+/*news_04*/
+.news_04 {
+  position:absolute; bottom:10%; right:3%;
+  width: 42%; height:700px;
+  transform:translate(10rem,10rem);
+  transition:all 800ms ease; opacity:0;
+  background-image:url(../../../../img/vans_main_pc/newsbox/img_04.png);
+  background-repeat:no-repeat;
+  background-position: center;}
+.news_04.active{transform:translateX(0); opacity: 1;}
+.box_04{
+  position:absolute; bottom:-10%; right:70%;
+  width:300px; height:350px;}
+.day_04{
+  position:absolute; top:6%;
+  width: 100%; height:90px;
+  background-image:url(../../../../img/vans_main_pc/newsbox/day_04.png);
+  background-repeat:no-repeat;
+  background-position:center;}
+.text_04{
+  margin-top:100px;
+  width: 100%; height:80%; background-color:#5d5d60;
+  background-image:url(../../../../img/vans_main_pc/newsbox/text_04.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:70%;}
+
+
+}

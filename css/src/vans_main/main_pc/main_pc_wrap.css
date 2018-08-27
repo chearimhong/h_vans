@@ -1,0 +1,4 @@
+/*main_pc_wrap.css*/
+@media screen and (min-width:768px) and (max-width:1365px) {
+  #wrap {width: 100%; height: 100%;}
+}

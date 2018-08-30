@@ -1,2 +1,3 @@
 /*main_base_wrap.css*/
+body{overflow:visible; overflow-x:hidden;}
 #wrap {width: 100%; height: 100%;}

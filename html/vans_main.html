@@ -31,6 +31,43 @@
       </ul>
     </div>
 
+    <!-- moblie searchbox -->
+    <div class="searchbox">
+      <a href="#"><sapn class="hidden">search</sapn></a>
+    </div>
+
+    
+    <!-- moblie gnbbox -->
+    <div class="mob_navibox">
+      <div class="btn">
+        <button type="button">
+          <span class="hidden">메뉴</span>
+        </button>
+      </div>
+      <ul class="mob_navi_onbox">
+        <li><a href="#">HOME</a></li>
+        <li>
+          <a href="#">SHOP</a>
+          <ol>
+            <li><a href="#">MEN</a></li>
+            <li><a href="#">WOMEN</a></li>
+            <li><a href="#">KIDS</a></li>
+          </ol>
+        </li>
+        <li>
+          <a href="#">BRAND</a>
+          <ol>
+            <li><a href="#">ABOUT BRAND</a></li>
+            <li><a href="#">VANS NEWS</a></li>
+          </ol>
+        </li>
+        <li><a href="#">EVENT</a></li>
+        <li><a href="#">CUSTOM</a></li>
+      </ul>
+    </div>
+    <!-- ---------------- -->
+
+    <!-- navibox -->
     <div class="navibox">
       <ul>
         <li>MEN</li>
@@ -47,12 +84,20 @@
 
     <!-- adbox -->
     <article id="adbox">
-      <div class="bannerbox_01">
+      <div class="indicater">
+        <ul>
+          <li class="active"><a href="#"><span class="hidden">이미지1</span></a></li>
+          <li><a href="#"><span class="hidden">이미지2</span></a></li>
+          <li><a href="#"><span class="hidden">이미지3</span></a></li>
+        </ul>
+      </div>
+      <div class="adbox_wrap">
+      <div class="bannerbox_01 active img" >
         <p class="slip_on"><span class="hidden">SLIP ON</span></p>
         <div class="button_00"><a href="#"><span class="hidden">take a look</span></a></div>
       </div>
 
-      <div class="bannerbox_02">
+      <div class="bannerbox_02 img">
         <div class="banner_01">
           <div class="button_01"><a href="#"><span class="hidden">authentic</span></a></div>
         </div>
@@ -61,13 +106,25 @@
         </div>
       </div>
       
-      <div class="bannerbox_03"><a href="#"></a></div>
+      <div class="bannerbox_03 img"><a href="#"></a></div>
       <!-- top_btn -->
       <div class="top_btn">
         <a href="#">
           <span class="hidden">top btn</span>
         </a>
       </div>
+      </div>
+    </article>
+
+    <!-- moblie product -->
+    <article id="mob_pro">
+      <ul>
+        <li><div class="mob_pro_textbox">BEST</div></li>
+        <li><div class="mob_pro_textbox">NEW</div></li>
+        <li><div class="mob_pro_textbox">SALE</div></li>
+        <li><div class="mob_pro_textbox">NEWS</div></li>
+      </ul>
+      
     </article>
 
     <!-- productbox -->
@@ -106,7 +163,17 @@
         
       </div>
     </article>
-   
+    <!-- moblie newsbox -->
+    <article id="mob_newsbox">
+      <div class="mob_sns">
+        <ul>
+          <li>insta</li>
+          <li>facebook</li>
+        </ul>
+      </div>
+      <div class="mob_bn"></div>
+      <div class="mob_bn_01"></div>
+    </article>
     <!-- newsbox -->
     <article id="newsbox">
       <h2><span class="hidden">news</span></h2>
@@ -172,7 +239,30 @@
     </article>
     
    
-
+    <!-- moblie footbox -->
+    <footer id="mob_footbox">
+      <h2>logo</h2>
+      <div class="mob_area_info">
+        <ul>
+          <li>회사명 : 유한회사 브이에프 코리아 / 대표이사: 로라미거</li>
+          <li>사업자 등록번호: 220-88-43561</li>
+          <li>통신판매업 신고번호: 2013-서울강남-02918호</li>
+          <li>개인정보 책임자: 박한나</li>
+          <li>주소: 서울특별시 강남구 테헤란로 317 동훈타워 18층</li>
+          <li>고객센터(평일 09:00 ~ 18:00) 1522-1882</li>
+          <li>유한회사 브이에프 코리아. All Rights Reserved.</li>
+          <li><span>California Transparency in Supply Chain Act of 2010</span></li>
+        </ul>
+      </div>
+      <div class="mob_foot_unb">
+        <ul>
+          <li>home</li>
+          <li>menu</li>
+          <li>basket</li>
+          <li>mypage</li>
+        </ul>
+      </div>
+    </footer>
     <!-- footbox -->
     <footer id="footbox">
       <div class="foot_wrap clearfix">
@@ -206,7 +296,10 @@
   <!-- javascript -->
   <script src="../js/base/jquery-3.3.1.js"></script>
   <script src="../js/base/jquery-ui.min.js"></script>
+  
 
+  <script src="../js/src/vans_main/vans_mob_gnb.js"></script>
+  <script src="../js/src/vans_main/vans_mob_slide.js"></script>
   <script src="../js/src/vans_main/vans_topbtn.js"></script>
   <script src="../js/src/vans_main/vans_adbox_slide.js"></script>
   <script src="../js/src/vans_main/vans_newsbox_slide.js"></script>

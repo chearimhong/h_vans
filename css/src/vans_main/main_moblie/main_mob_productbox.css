@@ -1,0 +1,21 @@
+/*main_momb_productbox.css*/
+@media screen and (max-width:480px) {
+#productbox {display:none;}
+
+#mob_pro {width: 100%; height: 483px;}
+#mob_pro > ul {width: 100%; height: 100%;}
+#mob_pro > ul > li{
+  float:left; width: 50%; height: 243px;}
+#mob_pro > ul > li:nth-child(1) {background-color: #a65;}
+#mob_pro > ul > li:nth-child(2) {background-color: #c61;}
+#mob_pro > ul > li:nth-child(3) {background-color: #e99;}
+#mob_pro > ul > li:nth-child(4) {background-color: #Ae5;}
+
+#mob_pro > ul > li > a {width: 100%; height: 100%; display:block;}
+
+.mob_pro_textbox {
+  margin: auto; margin-top:95px; 
+  width:40%; height: 20%;background-color: rgba(0,0,0,0.4);
+  color:#fff; text-align:center; line-height:50px;}
+
+}

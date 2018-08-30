@@ -1,5 +1,6 @@
 /*main_pcfull_footbox.css*/
 @media screen and (min-width:1366px)  {
+#mob_footbox {display:none;}
 #footbox {
   box-sizing:border-box; padding-top:20px;
   width: 100%; height:300px;background-color: #333333; }

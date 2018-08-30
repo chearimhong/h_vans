@@ -1,0 +1,29 @@
+/*main_mob_footbox.css*/
+@media screen and (max-width:480px) {
+#footbox { display:none; }
+#mob_footbox {
+  box-sizing:border-box; padding-top:12px;
+  width: 100%; height:350px; background-color: #333333;}
+#mob_footbox > h2 {
+  margin: auto; 
+  width: 115px; height: 63px; background-color: #fff;}
+.mob_area_info {width: 100%; height: 200px;}
+.mob_area_info > ul {width: 100%; height: 200px; }
+.mob_area_info > ul > li {
+  margin-top:5px; text-align:center;
+  width: 100%; height:20px; color:#fff;}
+.mob_area_info > ul > li > span {font-weight:bold; color:#589bc6;}
+
+/*mob_foot_unb*/
+.mob_foot_unb {
+  margin-top:5px;
+  width: 100%; height:60px; background-color: #000000;}
+.mob_foot_unb > ul {width: 100%; height: 100%; }
+.mob_foot_unb > ul > li {
+  margin-left:11px;
+  float:left;width:22%; height: 100%; background-color: #fff;}
+
+
+
+
+}

@@ -10,35 +10,35 @@
 
 
 /*headbox*/
-@import url("./main_base_headbox.css");
+
 @import url("../main_moblie/main_mob_headbox.css");
 @import url("../main_tablet/main_tab_headbox.css");
 @import url("../main_pc/main_pc_headbox.css");
 @import url("../main_pcfull/main_pcfull_headbox.css");
 
 /*adbox*/
-@import url("./main_base_adbox.css");
+
 @import url("../main_moblie/main_mob_adbox.css");
 @import url("../main_tablet/main_tab_adbox.css");
 @import url("../main_pc/main_pc_adbox.css");
 @import url("../main_pcfull/main_pcfull_adbox.css");
 
 /*productbox*/
-@import url("./main_base_productbox.css");
+
 @import url("../main_moblie/main_mob_productbox.css");
 @import url("../main_tablet/main_tab_productbox.css");
 @import url("../main_pc/main_pc_productbox.css");
 @import url("../main_pcfull/main_pcfull_productbox.css");
 
 /*newsbox*/
-@import url("./main_base_newsbox.css");
+
 @import url("../main_moblie/main_mob_newsbox.css");
 @import url("../main_tablet/main_tab_newsbox.css");
 @import url("../main_pc/main_pc_newsbox.css");
 @import url("../main_pcfull/main_pcfull_newsbox.css");
 
 /*footbox*/
-@import url("./main_base_footbox.css");
+
 @import url("../main_moblie/main_mob_footbox.css");
 @import url("../main_tablet/main_tab_footbox.css");
 @import url("../main_pc/main_pc_footbox.css");

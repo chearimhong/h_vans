@@ -1,0 +1,19 @@
+/*main_mob_newsbox.css*/
+@media screen and (max-width:480px) {
+#newsbox { display:none; }
+#mob_newsbox {
+  box-sizing:border-box; padding-top:80px;
+  width: 100%; height:330px; }
+/*moblie newsbox*/
+.mob_sns {width: 100%; height:80px; background-color: #d65;}
+.mob_sns > ul {
+  margin: auto;
+  width: 50%; height:80px; background-color: #666;}
+.mob_sns > ul > li {
+  float:left; margin-left:15px;
+  width:40%; height: 80px; background-color: #999;
+}
+.mob_bn {width: 100%; height: 90px; background-color: #e78;}
+.mob_bn_01 {width: 100%; height:90px; background-color: #aa5;}
+
+}

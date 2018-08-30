@@ -1,0 +1,82 @@
+/*main_mob_headbox.css*/
+@media screen and (max-width:480px) {
+#headbox {
+  z-index: 1000;
+  position:fixed; top:0; left:0;
+  width: 100%; height: 60px; background-color: #333333;}
+
+h1 {
+  position:absolute; top:0; left:50%; margin-left:-55px;
+  width: 110px; height: 60px;
+  background-image:url(../../../../img/vans_main_moblie/headbox/vans_logo.png);
+  background-repeat: no-repeat;
+  background-position: center;}
+
+/*unbbox*/
+.unbbox { display:none; }
+
+/*searchbox*/
+.searchbox {
+  float:left;
+  width: 65px; height: 60px;
+  background-image:url(../../../../img/vans_main_moblie/headbox/search.png);
+  background-repeat:no-repeat;
+  background-position: center;}
+
+/*navibox*/
+.navibox {display:none;}
+/*------*/
+
+/*moblie navibox*/
+.mob_navibox {
+  position:relative; float:right;
+  width: 65px; height: 60px;
+  background-color:#000000;}
+.btn {width:100%; height: 100%;}
+.btn > button {
+  width: 100%; height: 100%;
+  background-image: url(../../../../img/vans_main_moblie/headbox/menuwhite.png);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:60%;}
+/*moblie navi onbox*/
+.mob_navi_onbox {
+  display:none;
+  position:absolute; top:60px; right:0;
+  border:1px solid #fff;
+  width: 283px; height: 432px; background-color: #333333;}
+
+
+.mob_navi_onbox > li {
+  position:relative;
+  width: 100%; height: 89px; 
+  border:1px solid #fff; background-color:#333333;
+  text-align:center; font-weight:bold; 
+  color:#fff; font-size:1.5rem;}
+.mob_navi_onbox > li > a {
+  width: 100%; height: 100%; display:block;
+  color:#fff;  line-height:89px;}
+
+.mob_navi_onbox > li:hover {background-color: #000000;}
+.mob_navi_onbox > li > a:focus {background-color:#000000;}
+
+
+.mob_navi_onbox > li > ol {
+  display:none;
+  position:absolute; right:101%; top:0; 
+  width:190px; height:auto; background-color: #333333;} 
+.mob_navi_onbox > li > ol > li { 
+  width: 100%; height: 42px; background-color: #333333; 
+  border:1px solid #fff;}
+.mob_navi_onbox > li > ol > li > a {
+  display:block;width: 100%; height: 100%; 
+  color:#fff; font-size:1rem; line-height:42px;}
+
+.mob_navi_onbox > li > ol > li:hover {background-color: #000000;}
+.mob_navi_onbox > li > ol > li > a:focus {background-color: #000000;}
+
+
+
+
+
+}

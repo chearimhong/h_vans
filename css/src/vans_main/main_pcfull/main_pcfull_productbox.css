@@ -1,4 +1,5 @@
 @media screen and (min-width:1366px){
+#mob_pro {display:none;}
 #productbox {
   box-sizing:border-box; padding-top:6.784773060vw;
   width: 100%; height: auto;}

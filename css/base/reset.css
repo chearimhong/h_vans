@@ -55,5 +55,5 @@ header, nav, article, section, footer, aside, figure, figcaption{display:block;}
 
 /*접근성*/
 a:focus,button:focus,
-input:focus,select:focus
-text-area:focus,{outline:2px solid #f00; position:relative; z-index:1000;}
+input:focus,select:focus,
+text-area:focus{outline:3px solid #fff; position:relative; z-index:1000;}

@@ -2,20 +2,53 @@
 @media screen and (max-width:480px) {
 #productbox {display:none;}
 
-#mob_pro {width: 100%; height: 483px;}
+#mob_pro {width: 100%; height: 100.625vw;}
 #mob_pro > ul {width: 100%; height: 100%;}
 #mob_pro > ul > li{
-  float:left; width: 50%; height: 243px;}
-#mob_pro > ul > li:nth-child(1) {background-color: #a65;}
-#mob_pro > ul > li:nth-child(2) {background-color: #c61;}
-#mob_pro > ul > li:nth-child(3) {background-color: #e99;}
-#mob_pro > ul > li:nth-child(4) {background-color: #Ae5;}
+  float:left; width: 50%; height: 50.625vw;}
+#mob_pro > ul > li:nth-child(1) {
+  background-image:url(../../../../img/vans_main_moblie/productbox/img_01.png);
+  background-repeat: no-repeat;
+  background-position: center;}
+#mob_pro > ul > li:nth-child(2) {
+  background-image: url(../../../../img/vans_main_moblie/productbox/img_02.png);
+  background-repeat:no-repeat;
+  background-position: center;}
+#mob_pro > ul > li:nth-child(3) {
+  background-image:url(../../../../img/vans_main_moblie/productbox/img_03.png);
+  background-repeat: no-repeat;
+  background-position: center;}
+#mob_pro > ul > li:nth-child(4) {
+  background-image:url(../../../../img/vans_main_moblie/productbox/img_04.png);
+  background-repeat: no-repeat;
+  background-position: center;}
 
 #mob_pro > ul > li > a {width: 100%; height: 100%; display:block;}
 
 .mob_pro_textbox {
-  margin: auto; margin-top:95px; 
-  width:40%; height: 20%;background-color: rgba(0,0,0,0.4);
-  color:#fff; text-align:center; line-height:50px;}
+  margin: auto; margin-top:19.79166666666667vw; 
+  width:40%; height: 20%;background-color: rgba(0,0,0,0.6);
+  color:#fff; text-align:center; font-weight:bold;
+  text-decoration:underline #F21B24; line-height:10.41666666666667vw;}
+
+.pro_01 {
+  transform:translate(-10rem,-10rem);
+  transition:all 800ms ease; opacity:0;}
+.pro_01.active{transform:translateX(0); opacity: 1;}
+
+.pro_02 {
+  transform:translate(10rem,-10rem);
+  transition:all 800ms ease; opacity:0;}
+.pro_02.active{transform:translateX(0); opacity: 1;}
+
+.pro_03{
+  transform:translate(-10rem,10rem);
+  transition:all 800ms ease; opacity:0;}
+.pro_03.active{transform:translateX(0); opacity: 1;}
+
+.pro_04{
+  transform:translate(10rem,10rem);
+  transition:all 800ms ease; opacity:0;}
+.pro_04.active{transform:translateX(0); opacity: 1;}
 
 }

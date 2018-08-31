@@ -2,18 +2,45 @@
 @media screen and (max-width:480px) {
 #newsbox { display:none; }
 #mob_newsbox {
-  box-sizing:border-box; padding-top:80px;
-  width: 100%; height:330px; }
+  box-sizing:border-box; padding-top:16.66666666666667vw;
+  width: 100%; height:70.5vw; }
 /*moblie newsbox*/
-.mob_sns {width: 100%; height:80px; background-color: #d65;}
+.mob_sns {width: 100%; height:18.66666666666667vw; }
 .mob_sns > ul {
   margin: auto;
-  width: 50%; height:80px; background-color: #666;}
+  width: 50%; height:16.66666666666667vw;}
 .mob_sns > ul > li {
-  float:left; margin-left:15px;
-  width:40%; height: 80px; background-color: #999;
-}
-.mob_bn {width: 100%; height: 90px; background-color: #e78;}
-.mob_bn_01 {width: 100%; height:90px; background-color: #aa5;}
+  float:left; margin-left:3.125vw;
+  width:40%; height: 16.66666666666667vw;}
+.mob_sns > ul > li:nth-child(1) {
+  background-image: url(../../../../img/vans_main_moblie/newsbox/insta_icon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;}
+.mob_sns > ul > li:nth-child(2) {
+  background-image: url(../../../../img/vans_main_moblie/newsbox/facebook_icon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;}
+.mob_sns > ul > li > a {width: 100%; height: 100%; display:block;}
+.mob_bn {
+  width: 100%; height:18.58333333333333vw;
+  background-image: url(../../../../img/vans_main_moblie/newsbox/banner_1.png);
+  background-repeat:no-repeat;
+  background-position: bottom;
+  background-size:100%;
+  transform:translateX(-100rem);
+  transition:all 1000ms ease; opacity:0;}
+.mob_bn.active{transform:translateX(0); opacity: 1;}
+
+.mob_bn_01 {
+  width: 100%; height:17.58333333333333vw;
+  background-image: url(../../../../img/vans_main_moblie/newsbox/banner_2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  transform:translateX(-100rem);
+  transition:all 1500ms ease; opacity:0;}
+.mob_bn_01.active{transform:translateX(0); opacity: 1;}
 
 }

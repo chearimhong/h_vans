@@ -2,13 +2,13 @@
 @media screen and (max-width:480px) {
 #adbox {
   overflow-x:hidden;
-  position:relative; margin-top:60px;
-  width: 100%; height: 432px; }
+  position:relative; margin-top:12.5vw;
+  width: 100%; height:110vw; }
 
 /*indicater*/
 .indicater {
-  position:absolute; bottom:5%; left:50%; margin-left:-100px;
-  width:200px; height: 40px;}
+  position:absolute; bottom:8%; left:50%; margin-left:-100px;
+  width:200px; height: 8.333333333333333vw;}
 .indicater > ul {
   margin: auto;width: 180px; height: 30px;}
 .indicater > ul > li {
@@ -23,32 +23,56 @@
 
 
 /*adbox_wrap*/
-.adbox_wrap {width: 300%; height: 340px;background-color: #0000FF;}
+.adbox_wrap {width: 300%; height: 80.83333333333333vw;}
 
 /*bannerbox_01*/
 .bannerbox_01 {
   float:left;
   position:relative;
-  width:33.333333%; height: 340px; background-color: #456;}
+  width:33.333333%; height: 80.83333333333333vw;
+  background-image: url(../../../../img/vans_main_moblie/adbox/banner_001.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;}
 .bannerbox_01 > p{
   position: absolute; bottom:35%;  right:3%;
-  width: 206px; height:60px; background-color: #fff;}
+  width: 206px; height:60px;
+  background-image: url(../../../../img/vans_main_moblie/adbox/slipon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;}
 .button_00{
   position:absolute; right:10%;bottom:8%;
-  width: 160px; height: 55px; background-color: #fff;
+  width: 160px; height: 55px;
+  background-image: url(../../../../img/vans_main_moblie/adbox/takealook.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
   animation:hc 650ms infinite alternate;}
+.button_00 > a {width: 100%; height: 100%; display:block;}
+.button_00:hover {
+  background-image:url(../../../../img/vans_main_moblie/adbox/takealook_on.png);
+  background-repeat: no-repeat;
+  background-position: center;}
 
 /*bannerbox_02*/
 .banner_01 {display:none;}
 .banner_02 {display:none;}
 .bannerbox_02 {
   float:left;
-  width:33.333333%; height:340px; background-color:#FF00FF;}
+  width:33.333333%; height:80.83333333333333vw;
+  background-image:url(../../../../img/vans_main_moblie/adbox/adbox_banner_02.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  }
 
 /*bannerbox_03*/
 .bannerbox_03 {
   float:left;
-  width:33.333333%; height:340px; background-color:#00C0C0;} 
+  width:33.333333%; height:80.83333333333333vw;
+  background-image: url(../../../../img/vans_main_moblie/adbox/adbox_banner_03.png);
+  background-repeat: no-repeat;
+  background-position: center;} 
 
 /*top_btn*/
 .top_btn {
@@ -60,8 +84,11 @@
 .top_btn:hover {
   background-image:url(../../../../img/vans_main_pc/vans_btn_on.jpg);
   background-repeat: no-repeat;
-  background-position: center;
-}
+  background-position: center;}
+.top_btn:focus {
+  background-image:url(../../../../img/vans_main_pc/vans_btn_on.jpg);
+  background-repeat: no-repeat;
+  background-position: center;}
 .top_btn > a {display:block; width: 100%; height: 100%;transition:all 500ms;}
 
 @keyframes hc {
